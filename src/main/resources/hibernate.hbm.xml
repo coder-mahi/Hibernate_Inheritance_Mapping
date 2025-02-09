@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.pojo.Person" table="person_details" discriminator-value="person">
+		<id name="personId" column="person_id">
+			<generator class="increment"/>
+		</id>
+		<discriminator column="usertype" type="string"/>
+			<property name="firstName" length="15"/>
+			<property name="lastName" length="15"/>
+<subclass name="com.pojo.Employee" extends="com.pojo.Person" discriminator-value="emp">
+			<property name="salary" length="10"/>
+			<property name="deptNo" length="10"/>
+			<property name="deptName" length="10"/>
+			<property name="joiningDate" type="java.util.Date"/>
+		</subclass>
+	</class>
+</hibernate-mapping>
