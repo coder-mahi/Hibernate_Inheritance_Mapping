@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=Java%20Full%20Stack%20Developer%20🚀&fontSize=30&fontColor=white&animation=twinkling&desc=Spring%20Boot%20%7C%20React%20JS%0A%0ACloud%20%7C%20Deployment%20Tools&descSize=15&descAlignY=70" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&text=Java%20Full%20Stack%20Developer%20🚀&fontSize=30&fontColor=white&animation=twinkling&desc=Spring%20Boot%20%7C%20React%20JS%0A%7C%0ACloud%20%7C%20Deployment%20Tools&descSize=15&descAlignY=70" />
 </p>
 
 ---
